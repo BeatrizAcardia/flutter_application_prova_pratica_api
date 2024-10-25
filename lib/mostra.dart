@@ -35,7 +35,6 @@ class _MostraPetState extends State<MostraPet> {
     fazerReq();
     return Scaffold(
       appBar: AppBar(centerTitle: true, title: Text("Lista dos pets bonitos ;p", style: TextStyle(color: Colors.white),), backgroundColor: Colors.pink[600],),
-   
     body: ListView.builder(
       itemCount: petRepo.listaPet.length,
       itemBuilder: (context, index){   
